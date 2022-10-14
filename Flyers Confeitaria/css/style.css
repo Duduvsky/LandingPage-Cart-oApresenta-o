@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#principal {
+    width: 450px;
+    height: 675px;
+    margin: auto;
+    background-image: url(../images/fundo1.jpg);
+}
+
+header {
+    display: flex;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.local-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marca {
+    font-size: 25px;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.text-inicial {
+    font-size: small;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.local-logo{
+    width: 180px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 140px;
+    border-radius: 100px;
+    border-color: blanchedalmond;
+    border-style: solid;
+    border-color: #FDD2D3;
+    margin-top: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+.produto1 {
+    margin-left: 5px;
+}
+.produto1 .descricao {
+    margin-left: 25px;
+}
+.produto2 {
+    margin-left: 20px;
+}
+
+.produto3 .descricao{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.produto4 {
+    margin-left: 10px;
+}
+.produto4 .descricao{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.parte1 {
+    display: flex;
+}
+.descricao {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.cupcake {
+    width: 160px;
+    margin-left: 10px;
+    border-color: #F9E1E1;
+    border-style: solid;
+}
+.biscoito1 {
+    width: 180px;
+    margin-left: 25px;
+    border-color: #F9E1E1;
+    border-style: solid;
+}
+.biscoito2 {
+    width: 102.6px;
+    border-color: #F9E1E1;
+    border-style: solid;
+}
+.parte2 {
+    display: flex;
+}
+
+.bolo {
+    width: 100px;
+    border-color: #E4F6F4;
+    border-style: solid;
+}
+.bolo2 {
+    width: 165px;
+    border-color: #E4F6F4;
+    border-style: solid;
+    margin-left: 15px;
+}
+.bentocake {
+    width: 98px;
+    border-color: #E4F6F4;
+    border-style: solid;
+}
+.bentocake2 {
+    width: 185px;
+    border-color: #E4F6F4;
+    border-style: solid;
+    margin-left: 30px;
+}
+
+.text-final {
+    font-size: small;
+    margin: 0;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
